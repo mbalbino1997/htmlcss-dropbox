@@ -42,11 +42,20 @@ img {
     display: flex;
     flex-wrap:wrap;
 }
+.row-prod {
+    display: flex;
+    flex-wrap:wrap;
+    row-gap: 40px;
+}
+
 /*layout*/
 .col-100 {
     width: 100%;
     text-wrap: wrap;
     
+}
+.col-33 {
+    flex-basis:33.33%;
 }
 .col-35 {
     flex-basis: 35%;
