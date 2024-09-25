@@ -1,0 +1,55 @@
+/*reset*/
+*{
+   box-sizing: border-box;
+   margin:0px;
+   padding:0px;
+}
+ul,ol {
+   list-style:none;
+
+}
+a {
+   color: currentColor;
+   text-decoration:none;
+}
+img {
+   max-width: 100%;
+}
+/*container*/
+.container {
+    display: flex;
+    justify-content:space-between;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 25px 0;
+    
+}
+.col-ul {
+    display: flex;
+    gap:20px;
+}
+.container-mid {
+    
+    max-width: 900px;
+    margin: 0px auto;
+    
+}
+.row {
+    display: flex;
+    flex-wrap:wrap;
+}
+/*layout*/
+.col-100 {
+    width: 100%;
+}
+.col-35 {
+    flex-basis: 35%;
+}
+.col-65 {
+    flex-basis:65%;
+}
+
+/*background*/
+.hero {
+    background-color: rgb(180,208,231);
+}
