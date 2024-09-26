@@ -102,6 +102,12 @@ img {
 .ul-content > li {
     margin: 10px 0px;
 }
+.ul-content hr {
+    width: 40px;
+    color: lightgray;
+    margin-left: 5px;
+
+}
 
 /*background*/
 header {
